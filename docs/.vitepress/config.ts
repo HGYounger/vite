@@ -10,6 +10,7 @@ var options = {
 };
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/vite/',
   title: "huangguangyang 专属站点",
   description: "666",
   themeConfig: {
