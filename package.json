@@ -8,5 +8,23 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs --port 8080"
-  }
+  },
+  "name": "vite",
+  "description": "静态页面\r 启动：npm run docs:dev\r 打包：npm run docs:build\r 本地预览打包项目：npm run docs:review",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HGYounger/vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HGYounger/vite/issues"
+  },
+  "homepage": "https://github.com/HGYounger/vite#readme"
 }
